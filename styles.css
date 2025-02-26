@@ -68,9 +68,10 @@ table {
 
 /* Voor MOBIEL */
 @media only screen and (max-width : 600px ){
+	body {background-color: #362E65}
     .col-m-1 {width: 8.33%;}
-    .col-m-2 {width: 16.66%;}
-    .col-3 {width: 20%; height: 300px; border: solid 1px black; margin-left: 2.5%; margin-right:2.5%; margin-bottom: 20px}
+    .col-2 {width: 40%; height: 300px; border: solid 1px black; margin-left: 5%; margin-right: 5%; margin-bottom: 20px}
+    .col-3 {width: 50px;}
     .col-m-4 {width: 33.33%;}
     .col-m-5 {width: 41.66%;}
     .col-m-6 {width: 50%;}
@@ -79,7 +80,7 @@ table {
     .col-m-9 {width: 75%;}
     .col-m-10 {width: 83.33%;}
     .col-m-11 {width: 91.66%;}
-    .col-12 {width: 100%; height: 100px;}
+    .col-12 {width: 100%;  height:70px; background-color:#C197CE; margin-bottom: 30px}
 	.fotoes {height: 100%; width: 100%}
 	/* MOBIELE code binnen deze accolades van het @media stuk */
 }
@@ -104,3 +105,5 @@ table {
 	/* DESKTOP code binnen deze accolades van het @media stuk */
 	
 }
+#scorestuff {font-size: 120%; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif'}
+#scoredisplayer{font-size: 200%; font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
